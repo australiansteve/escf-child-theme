@@ -3,5 +3,100 @@
 	Author: Weaver Crawford Creative
 	Author URI: https://weavercrawford.com/
     Template:  escfTheme
-	Version: 1.0
+	Version: 1.2
 */
+
+footer .donate-today{display: block;
+    height: 50px;
+    width: 235px;
+    background-color: #333333;
+    color: #8cc63f !important;
+    line-height: 50px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: -25px;
+    margin-left: 15px;
+margin-bottom:30px;
+    font-weight: 700;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.3s ease-in;
+    -moz-transition: background-color 0.3s ease-in;
+    -ms-transition: background-color 0.3s ease-in;
+    -o-transition: background-color 0.3s ease-in;
+    transition: background-color 0.3s ease-in;}
+
+
+
+.paginate-links{
+    padding: .75rem 1.25rem;
+    font-size: 1.25rem;
+}
+
+.paginate-links .page-numbers:not(.next):not(.prev){
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.paginate-links .current{
+    color: #8cc63f;
+}
+
+
+.alignleft, img.alignleft {
+    margin-right: 1.5em;
+    margin-bottom: 0.5em;
+    display: inline;
+    float: left;
+    }
+.alignright, img.alignright {
+    margin-left: 1.5em;
+    margin-bottom: 0.5em;
+    display: inline;
+    float: right;
+    }
+.aligncenter, img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both;
+    }
+
+.card-item img{
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px){
+    .footer-n2 {
+    padding: 85px 15px 0px 15px;
+}
+}
+
+
+
+.beardapproved{
+  margin-top: 30px;
+}
+
+.beardapproved a{
+  display: inline-block;
+}
+.beardapproved img{
+  max-width: 35px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header .main-header .menu-comp .botside-menu ul{
+    font-size: 18px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    header .main-header .menu-comp .botside-menu ul{
+        font-size: 16px;
+    }
+
+    header .main-header .menu-comp .botside-menu ul li{
+        margin-right: 15px;
+    }
+}
